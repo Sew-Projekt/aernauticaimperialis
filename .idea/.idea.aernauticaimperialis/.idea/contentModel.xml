@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Julia\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Julia\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_aernauticaimperialis.133859376.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis" t="IncludeFlat">
+    <e p="C:\SCHULE\3. Jahrgang\SEW\AernauticaImperialis" t="IncludeFlat">
       <e p="AernauticaImperialis" t="IncludeRecursive">
         <e p="aernauticaimperialis.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
@@ -16,8 +14,10 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
-      <e p="aernauticaimperialis.sln" t="IncludeFlat" />
+      <e p="AernauticaImperialis.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\luke2\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\luke2\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AernauticaImperialis.-452715691.00" t="ExcludeRecursive" />
   </component>
 </project>
