@@ -1,0 +1,11 @@
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.exe
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.deps.json
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.runtimeconfig.json
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.runtimeconfig.dev.json
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.dll
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.pdb
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.csprojAssemblyReference.cache
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.AssemblyInfoInputs.cache
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.AssemblyInfo.cs
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.dll
+C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.pdb

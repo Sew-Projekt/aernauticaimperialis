@@ -1,0 +1,19 @@
+Index: aernauticaimperialis/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\r\n\r\nnamespace aernauticaimperialis\r\n{\r\n    class Program\r\n    {\r\n        static void Main(string[] args)\r\n        {\r\n            Console.WriteLine(\"Hello World!\");\r\n            Console.WriteLine(\"hallo hi\");\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- aernauticaimperialis/Program.cs	(revision 8029040e0f913c03ca84fec84488de83bffda008)
++++ aernauticaimperialis/Program.cs	(date 1603433646770)
+@@ -7,7 +7,7 @@
+         static void Main(string[] args)
+         {
+             Console.WriteLine("Hello World!");
+-            Console.WriteLine("hallo hi");
++            Console.WriteLine("hallo");
+         }
+     }
+ }
+\ No newline at end of file
