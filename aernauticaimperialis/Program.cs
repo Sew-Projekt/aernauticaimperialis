@@ -7,7 +7,7 @@ namespace aernauticaimperialis
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("hallo");
+            Console.WriteLine("hallo hi");
         }
     }
 }
