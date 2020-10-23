@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lR8LIoqM2k90C/bzmCsA3Yh5wOiT3RxWCkg6iHRWRhr8G81vGj5+ydR2ZNQ0tKz2Rp4y9n6vVY1XRhNdKBrWTg==",
+  "dgSpecHash": "4Q3W9ewMcZgGMtmcJ2m+rR9YvfIT/WJSNlqk01U8qoBrT/5VbwkExxwZsXgnh1+CmNBEv0JR6h7eJUvelJCzog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
