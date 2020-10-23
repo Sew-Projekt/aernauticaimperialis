@@ -12,6 +12,7 @@
             </e>
           </e>
         </e>
+        <e p="Point.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="AernauticaImperialis.sln" t="IncludeFlat" />
