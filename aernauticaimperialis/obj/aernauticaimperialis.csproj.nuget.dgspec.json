@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {}
+    "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {
+    "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+        "projectUniqueName": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
         "projectName": "aernauticaimperialis",
-        "projectPath": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
-        "packagesPath": "C:\\Users\\Johanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\obj\\",
+        "projectPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+        "packagesPath": "C:\\Users\\luke2\\.nuget\\packages\\",
+        "outputPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Johanna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\luke2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -71,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

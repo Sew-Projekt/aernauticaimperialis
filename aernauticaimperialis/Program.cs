@@ -8,6 +8,8 @@ namespace aernauticaimperialis
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("hallo");
+            Console.WriteLine("tschüss");
+            
         }
     }
 }

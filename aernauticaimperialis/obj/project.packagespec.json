@@ -1,14 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+    "projectUniqueName": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
     "projectName": "aernauticaimperialis",
-    "projectPath": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
-    "outputPath": "C:\\Users\\Johanna\\Desktop\\sew-projekt\\aernauticaimperialis\\aernauticaimperialis\\obj\\",
+    "projectPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+    "outputPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
@@ -61,7 +58,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
     }
   }
 }
