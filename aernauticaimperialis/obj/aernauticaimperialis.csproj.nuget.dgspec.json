@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {}
+    "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {
+    "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+        "projectUniqueName": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
         "projectName": "aernauticaimperialis",
-        "projectPath": "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
-        "packagesPath": "C:\\Users\\Julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julia\\Desktop\\HTL\\3AHIT\\SEW\\AernauticaImperialis\\aernauticaimperialis\\obj\\",
+        "projectPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\aernauticaimperialis.csproj",
+        "packagesPath": "C:\\Users\\luke2\\.nuget\\packages\\",
+        "outputPath": "C:\\SCHULE\\3. Jahrgang\\SEW\\aernauticaimperialis\\aernauticaimperialis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\luke2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,12 +45,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

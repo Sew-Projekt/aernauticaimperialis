@@ -14,9 +14,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="Added Point Class">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="cw hello world" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +27,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AernauticaImperialis/Program.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +99,7 @@
       <workItem from="1603370951296" duration="7000" />
       <workItem from="1603370997407" duration="403000" />
       <workItem from="1603433649408" duration="413000" />
+      <workItem from="1603434276641" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603433759601</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cw hello world">
+      <created>1603434311986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603434311986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="test test" />
     <MESSAGE value="test" />
     <MESSAGE value="Added Point Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Point Class" />
+    <MESSAGE value="cw hello world" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw hello world" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="330" key="Github.ShareDialog" timestamp="1603368334498">
@@ -190,13 +197,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603433927328" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603433761965">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603434313846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603433761965" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603433717263">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603434276813">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603433717263" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603434276813" />
   </component>
 </project>
