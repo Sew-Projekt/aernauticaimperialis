@@ -10,6 +10,7 @@
         <e p="EDistanceType.cs" t="Include" />
         <e p="EOrientationType.cs" t="Include" />
         <e p="ICommand.cs" t="Include" />
+        <e p="IMoveBehaviour.cs" t="Include" />
         <e p="Map.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

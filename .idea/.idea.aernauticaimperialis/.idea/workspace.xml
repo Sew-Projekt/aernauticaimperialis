@@ -14,7 +14,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="cw hello world" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="Paar Klassen (30.10.2020)">
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,13 @@
         <option value="$PROJECT_DIR$/AernauticaImperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Map.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/EOrientationType.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/EDistanceType.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Dice.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/ICommand.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +110,7 @@
       <workItem from="1603370997407" duration="403000" />
       <workItem from="1603433649408" duration="413000" />
       <workItem from="1603434276641" duration="54000" />
+      <workItem from="1604079314624" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -150,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603434311986</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Paar Klassen (30.10.2020)">
+      <created>1604079474124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604079474124</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +196,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Added Point Class" />
     <MESSAGE value="cw hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw hello world" />
+    <MESSAGE value="Paar Klassen (30.10.2020)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paar Klassen (30.10.2020)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="330" key="Github.ShareDialog" timestamp="1603368334498">
