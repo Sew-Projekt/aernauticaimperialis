@@ -14,23 +14,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="02.11.2020; Aircrafts added;">
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/ACommand.cs" afterDir="false" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="02.11.2020">
+      <change afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/aernauticaImperialis.unitTest.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AImperialis.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AImperialis.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AOrk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AOrk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/BigBurna.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/BigBurna.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/BlueDevil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/BlueDevil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Dice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Dice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/EDistanceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/EDistanceType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/EOrientationType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/EOrientationType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Executioner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Executioner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/GrotBommer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/GrotBommer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Hellion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Hellion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/ICommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/ICommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Vulture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Vulture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AernauticaImperialis/Program.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Map.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
@@ -62,6 +52,8 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/GrotBommer.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Hellion.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Vulture.cs" />
+        <option value="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +126,7 @@
       <workItem from="1603433649408" duration="413000" />
       <workItem from="1603434276641" duration="54000" />
       <workItem from="1604079314624" duration="507000" />
-      <workItem from="1604327298305" duration="3783000" />
+      <workItem from="1604327298305" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -206,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604329029046</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="02.11.2020">
+      <created>1604331169698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331169698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +235,8 @@
     <MESSAGE value="cw hello world" />
     <MESSAGE value="Paar Klassen (30.10.2020)" />
     <MESSAGE value="02.11.2020; Aircrafts added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.11.2020; Aircrafts added;" />
+    <MESSAGE value="02.11.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.11.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="330" key="Github.ShareDialog" timestamp="1603368334498">
@@ -251,10 +251,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="407" y="194" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368395869" />
-    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604327889825">
+    <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1604331221767">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604327889825" />
+    <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604331221767" />
+    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604331274423">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604331274423" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1603433927328">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -263,10 +267,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604328436973" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604329031856">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604331172090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604329031856" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604331172090" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604329707859">
       <screen x="0" y="0" width="1536" height="864" />

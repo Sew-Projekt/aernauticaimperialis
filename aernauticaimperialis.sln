@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aernauticaimperialis", "aernauticaimperialis\aernauticaimperialis.csproj", "{99CE4D36-A35A-4D7A-A053-AE0781875F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aernauticaImperialis.unitTest", "aernauticaImperialis.unitTest\aernauticaImperialis.unitTest.csproj", "{DADBF179-927F-4798-9A88-C6FB237E1FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{99CE4D36-A35A-4D7A-A053-AE0781875F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99CE4D36-A35A-4D7A-A053-AE0781875F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99CE4D36-A35A-4D7A-A053-AE0781875F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADBF179-927F-4798-9A88-C6FB237E1FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADBF179-927F-4798-9A88-C6FB237E1FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADBF179-927F-4798-9A88-C6FB237E1FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADBF179-927F-4798-9A88-C6FB237E1FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
