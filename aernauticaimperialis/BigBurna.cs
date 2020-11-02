@@ -1,7 +1,9 @@
 ﻿namespace aernauticaimperialis {
-    public class BigBurna : AOrk{
-        public BigBurna(int speed) 
-            : base(3, speed, 2, 3, 7, 4, 4, 4) {
+    public class BigBurna : AOrk {
+        private const int POINTCOST = 22;
+        
+        public BigBurna(int speed, int altitude) 
+            : base(3, speed, 2, 3, 7, 4, 4, 4, altitude) {
         }
     }
 }

@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\SCHULE\3. Jahrgang\SEW\AernauticaImperialis" t="IncludeFlat">
       <e p="AernauticaImperialis" t="IncludeRecursive">
+        <e p="ACommand.cs" t="Include" />
         <e p="aernauticaimperialis.csproj" t="IncludeRecursive" />
         <e p="AImperialis.cs" t="Include" />
         <e p="AOrk.cs" t="Include" />

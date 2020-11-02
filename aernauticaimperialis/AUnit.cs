@@ -1,5 +1,5 @@
 ﻿namespace aernauticaimperialis {
-    public class AUnit {
+    public abstract class AUnit {
         protected int _structure;
         protected int _speed;
         protected int _maxThrottle;
@@ -8,10 +8,9 @@
         protected int _maxManeuver;
         protected int _handling;
         protected int _maxAltitude;
-
         protected int _altitude;
 
-        public AUnit(int structure, int speed, int maxThrottle, int minSpeed, int maxSpeed, int maxManeuver, int handling, int maxAltitude) {
+        public AUnit(int structure, int speed, int maxThrottle, int minSpeed, int maxSpeed, int maxManeuver, int handling, int maxAltitude, int altitude) {
             _structure = structure;
             _speed = speed;
             _maxThrottle = maxThrottle;
@@ -20,7 +19,7 @@
             _maxManeuver = maxManeuver;
             _handling = handling;
             _maxAltitude = maxAltitude;
-            
+            _altitude = altitude;
         }
     }
 }
