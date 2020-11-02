@@ -26,8 +26,7 @@ namespace aernauticaimperialis {
         }
 
         public bool IsPointLegal(Point p) {
-
-
+            
             return true;
         }
     }
