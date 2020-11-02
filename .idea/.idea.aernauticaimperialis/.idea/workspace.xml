@@ -15,8 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="Paar Klassen (30.10.2020)">
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/AImperialis.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/AOrk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/BigBurna.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/BlueDevil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/Executioner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/GrotBommer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/Hellion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/Vulture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$rnauticaimperialis.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$rnauticaimperialis.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +48,16 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/EDistanceType.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Dice.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ICommand.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/AOrk.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Vulture.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/BigBurna.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/GrotBommer.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/BlueDevil.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/AImperialis.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Hellion.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Executioner.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +129,8 @@
       <workItem from="1603370997407" duration="403000" />
       <workItem from="1603433649408" duration="413000" />
       <workItem from="1603434276641" duration="54000" />
-      <workItem from="1604079314624" duration="381000" />
+      <workItem from="1604079314624" duration="507000" />
+      <workItem from="1604327298305" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -168,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604079474124</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Paar Klassen (30.10.2020)">
+      <created>1604079729819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604079729819</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,17 +239,27 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="407" y="194" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368395869" />
+    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604327889825">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604327889825" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1603433927328">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603433927328" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603434313846">
+    <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog" timestamp="1604328436973">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604328436973" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604079731533">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604079731533" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603434276813">
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604079435155">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604079435155" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603434276813" />
   </component>
 </project>
