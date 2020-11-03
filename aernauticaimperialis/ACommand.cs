@@ -1,5 +1,5 @@
 ﻿namespace aernauticaimperialis {
-    public abstract class ACommand : ICommand{
+    public abstract class ACommand{
         public ACommand() {
         }
 

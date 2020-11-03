@@ -59,11 +59,12 @@ namespace aernauticaimperialis {
         
         public bool IsPointLegal(Point p) 
         {
-            if (p.X < 0 || p.Y < 0 || p.X >= _map.GetLength(0) || p.Y >= _map.GetLength(1) || p.Z < 0 || p.Z >= _map.GetLength(2))
-            {
+            if (p.X < 0 || p.Y < 0 
+                        || p.X >= _map.GetLength(0) 
+                        || p.Y >= _map.GetLength(1) 
+                        || p.Z < 0 
+                        || p.Z >= _map.GetLength(2))
                 return false;
-            }
-
             return true;
         }
     }

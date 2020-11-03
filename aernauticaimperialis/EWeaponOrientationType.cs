@@ -2,6 +2,6 @@
 {
     public enum EWeaponOrientationType
     {
-        FRONT, REAR, RIGHT, LEFT, UP, ALLROUND
+        FRONT, REAR, RIGHT, LEFT, ALLROUND
     }
 }

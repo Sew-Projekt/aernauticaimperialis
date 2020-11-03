@@ -20,7 +20,7 @@ namespace aernauticaimperialis
 
         public void Info(string info)
         {
-            if (LOG_TO_CONSOLE == true)
+            if (LOG_TO_CONSOLE)
             {
                 Console.WriteLine(info);
             }
