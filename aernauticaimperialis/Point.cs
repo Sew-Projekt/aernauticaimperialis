@@ -24,10 +24,5 @@ namespace aernauticaimperialis {
             _y = y;
             _z = z;
         }
-
-        public bool IsPointLegal(Point p) {
-            
-            return true;
-        }
     }
 }

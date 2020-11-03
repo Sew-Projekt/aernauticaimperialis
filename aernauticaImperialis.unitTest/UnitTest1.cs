@@ -1,5 +1,7 @@
+using System;
 using System.Drawing;
 using System.Security.Principal;
+using aernauticaimperialis;
 using NUnit.Framework;
 
 namespace aernauticaImperialis.unitTest {
@@ -12,6 +14,5 @@ namespace aernauticaImperialis.unitTest {
         public void Test1() {
             Assert.Pass();
         }
-        
     }
 }
