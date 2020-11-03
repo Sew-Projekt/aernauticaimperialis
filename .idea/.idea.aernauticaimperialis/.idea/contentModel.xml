@@ -25,6 +25,8 @@
         <e p="Dice.cs" t="Include" />
         <e p="EDistanceType.cs" t="Include" />
         <e p="EOrientationType.cs" t="Include" />
+        <e p="EPlayerType.cs" t="Include" />
+        <e p="EWeaponOrientationType.cs" t="Include" />
         <e p="Executioner.cs" t="Include" />
         <e p="GameEngine.cs" t="Include" />
         <e p="GrotBommer.cs" t="Include" />
