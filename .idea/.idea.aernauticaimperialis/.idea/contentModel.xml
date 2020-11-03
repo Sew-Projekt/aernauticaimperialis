@@ -31,6 +31,7 @@
         <e p="Hellion.cs" t="Include" />
         <e p="ICommand.cs" t="Include" />
         <e p="IMoveBehaviour.cs" t="Include" />
+        <e p="Logger.cs" t="Include" />
         <e p="Map.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
