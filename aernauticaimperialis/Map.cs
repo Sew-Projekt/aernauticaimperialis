@@ -1,17 +1,9 @@
 ﻿using System.Text;
 
 namespace aernauticaimperialis {
-    public class Map
+    public class Map : AGameEngine
     {
         public Map[,,] _map;
-
-        public GameEngine _gameEngine;
-
-        public GameEngine GameEngine
-        {
-            get => _gameEngine;
-            set => _gameEngine = value;
-        }
 
         public Map[,,] Map1
         {
@@ -19,12 +11,20 @@ namespace aernauticaimperialis {
             set => _map = value;
         }
 
+        public AGameEngine _gameEngine;
+
+        public AGameEngine GameEngine
+        {
+            get => _gameEngine;
+            set => _gameEngine = value;
+        }
+
         public Map(int x, int y, int z)
         {
             _map = new Map[x, y, z];
         }
         
-        public void Init(GameEngine gameEngine) {
+        public void Init(AGameEngine aGameEngine) {
             for (int i = 0; i < _map.GetLength(0); i++) {
                 for (int j = 0; j < _map.GetLength(1); j++) {
                     for (int k = 0; k < _map.GetLength(2); k++)

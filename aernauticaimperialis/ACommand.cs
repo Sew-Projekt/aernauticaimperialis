@@ -3,6 +3,15 @@
         public ACommand() {
         }
 
-        public abstract void Move(Point end);
+
+        public void Move(Point end)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool IsSpin()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

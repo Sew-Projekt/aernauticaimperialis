@@ -16,6 +16,7 @@
       <e p="AernauticaImperialis" t="IncludeRecursive">
         <e p="ACommand.cs" t="Include" />
         <e p="aernauticaimperialis.csproj" t="IncludeRecursive" />
+        <e p="AGameEngine.cs" t="Include" />
         <e p="AImperialis.cs" t="Include" />
         <e p="AOrk.cs" t="Include" />
         <e p="AUnit.cs" t="Include" />
@@ -28,7 +29,6 @@
         <e p="EPlayerType.cs" t="Include" />
         <e p="EWeaponOrientationType.cs" t="Include" />
         <e p="Executioner.cs" t="Include" />
-        <e p="GameEngine.cs" t="Include" />
         <e p="GrotBommer.cs" t="Include" />
         <e p="Hellion.cs" t="Include" />
         <e p="ICommand.cs" t="Include" />
