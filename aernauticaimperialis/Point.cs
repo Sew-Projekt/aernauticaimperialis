@@ -24,5 +24,17 @@ namespace aernauticaimperialis {
             _y = y;
             _z = z;
         }
+
+        public override bool Equals(object obj)
+        {
+            Point p = (Point) obj;
+            
+            if (p.X == X && p.Y == Y && p.Z == Z)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
