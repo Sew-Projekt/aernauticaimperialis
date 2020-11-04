@@ -9,6 +9,7 @@
         <e p="AircraftFactory.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DefaultField.cs" t="Include" />
+        <e p="DefaultMoveBehaviour.cs" t="Include" />
         <e p="Dice.cs" t="Include" />
         <e p="EDistanceType.cs" t="Include" />
         <e p="EFieldType.cs" t="Include" />
@@ -19,6 +20,7 @@
         <e p="IMoveBehaviour.cs" t="Include" />
         <e p="Logger.cs" t="Include" />
         <e p="Map.cs" t="Include" />
+        <e p="MovementCost.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">

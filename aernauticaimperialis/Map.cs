@@ -21,8 +21,8 @@ namespace aernauticaimperialis {
         
         public string Render() {
             StringBuilder builder = new StringBuilder();
-            
-            return builder.ToString();
+
+            return null;
         }
 
         public bool IsPointLegal(Point p) {

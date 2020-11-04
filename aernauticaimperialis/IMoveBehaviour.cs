@@ -1,5 +1,5 @@
 ﻿namespace aernauticaimperialis {
-    public class IMoveBehaviour {
-        
+    public interface IMoveBehaviour {
+        public void Move(Point start, Point destination);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace aernauticaimperialis {
     public class Point {
@@ -36,6 +37,27 @@ namespace aernauticaimperialis {
             }
 
             return false;
+        }
+        
+        public List<Point> CalculateRoute(Point destination) {
+            List<Point> route = new List<Point>();
+
+            int diffX = Math.Abs(_x - destination._x);
+            int diffY = Math.Abs(_y - destination._y);
+            int diffZ = Math.Min(Math.Max(diffX, diffY), Math.Abs(_z - destination._z));
+
+            int stepX = (_x == destination.X) ? 0 : (_x < destination.X) ? 1 : -1;
+            int stepY = (_y == destination.Y) ? 0 : (_y < destination.Y) ? 1 : -1;
+            int stepZ = (_z == destination.Z) ? 0 : (_z < destination.Z) ? 1 : -1;
+
+            for (int i = 1, j = 1, k = 1, step = 0; step < Math.Max(diffX, diffY); step++) {
+                route.Add(new Point(_x + (i * stepX), j + (_y * stepY), _z + (k * stepZ)));
+
+                if (i < diffX) i++;
+                if (j < diffY) j++;
+                if (k < diffZ) k++;
+            }
+            return route;
         }
     }
 }
