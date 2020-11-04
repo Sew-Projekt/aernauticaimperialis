@@ -1,68 +1,35 @@
 ﻿using System.Text;
 
 namespace aernauticaimperialis {
-    public class Map : AGameEngine
-    {
-        public Map[,,] _map;
+    public class Map {
+        private Point[,,] _map = new Point[15, 15, 5];
 
-        public Map[,,] Map1
-        {
-            get => _map;
-            set => _map = value;
+
+        public Map() {
+            Init();
         }
 
-        public AGameEngine _gameEngine;
-
-        public AGameEngine GameEngine
-        {
-            get => _gameEngine;
-            set => _gameEngine = value;
-        }
-
-        public Map(int x, int y, int z)
-        {
-            _map = new Map[x, y, z];
-        }
-        
-        public void Init(AGameEngine aGameEngine) {
-            for (int i = 0; i < _map.GetLength(0); i++) {
-                for (int j = 0; j < _map.GetLength(1); j++) {
-                    for (int k = 0; k < _map.GetLength(2); k++)
-                    {
-                        
+        private void Init() {
+            for (int x = 0; x < _map.GetLength(0); x++) {
+                for (int y = 0; y < _map.GetLength(1); y++) {
+                    for (int z = 0; z < _map.GetLength(2); z++) {
+                        _map[x, y, z] = new DefaultField(x, y, z);
                     }
                 }
             }
         }
-
+        
         public string Render() {
             StringBuilder builder = new StringBuilder();
-            int count = 0;
-
-            for (int i = 0; i < _map.GetLength(0); i++)
-            {
-                for (int j = 0; j < _map.GetLength(1); j++)
-                {
-                    for (int k = 0; k < _map.GetLength(2); k++)
-                    {
-                        builder.Append(_map[i, j, k]);
-                    }
-
-                    builder.Append('\n');
-                }
-
-                builder.Append('\n');
-            }
-
+            
             return builder.ToString();
         }
-        
-        public bool IsPointLegal(Point p) 
-        {
-            if (p.X < 0 || p.Y < 0 
-                        || p.X >= _map.GetLength(0) 
-                        || p.Y >= _map.GetLength(1) 
-                        || p.Z < 0 
+
+        public bool IsPointLegal(Point p) {
+            if (p.X < 0 || p.Y < 0
+                        || p.X >= _map.GetLength(0)
+                        || p.Y >= _map.GetLength(1)
+                        || p.Z < 0
                         || p.Z >= _map.GetLength(2))
                 return false;
             return true;

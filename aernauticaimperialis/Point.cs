@@ -2,9 +2,10 @@
 
 namespace aernauticaimperialis {
     public class Point {
-        protected int _x;
-        protected int _y;
-        protected int _z;
+        private int _x;
+        private int _y;
+        private int _z;
+        protected EFieldType _fieldType;
         
         public int X {
             get => _x;

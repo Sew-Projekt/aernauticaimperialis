@@ -5,23 +5,17 @@
       <e p="AernauticaImperialis" t="IncludeRecursive">
         <e p="ACommand.cs" t="Include" />
         <e p="aernauticaimperialis.csproj" t="IncludeRecursive" />
-        <e p="AGameEngine.cs" t="Include" />
-        <e p="AImperialis.cs" t="Include" />
+        <e p="Aircraft.cs" t="Include" />
         <e p="AircraftFactory.cs" t="Include" />
-        <e p="AOrk.cs" t="Include" />
-        <e p="AUnit.cs" t="Include" />
-        <e p="BigBurna.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="BlueDevil.cs" t="Include" />
+        <e p="DefaultField.cs" t="Include" />
         <e p="Dice.cs" t="Include" />
         <e p="EDistanceType.cs" t="Include" />
+        <e p="EFieldType.cs" t="Include" />
         <e p="EOrientationType.cs" t="Include" />
         <e p="EPlayerType.cs" t="Include" />
         <e p="EWeaponOrientationType.cs" t="Include" />
-        <e p="EWeaponType.cs" t="Include" />
-        <e p="Executioner.cs" t="Include" />
-        <e p="GrotBommer.cs" t="Include" />
-        <e p="Hellion.cs" t="Include" />
+        <e p="GameEngine.cs" t="Include" />
         <e p="IMoveBehaviour.cs" t="Include" />
         <e p="Logger.cs" t="Include" />
         <e p="Map.cs" t="Include" />
@@ -34,7 +28,7 @@
         </e>
         <e p="Point.cs" t="Include" />
         <e p="Program.cs" t="Include" />
-        <e p="Vulture.cs" t="Include" />
+        <e p="Weapon.cs" t="Include" />
         <e p="WeaponFactory.cs" t="Include" />
       </e>
       <e p="aernauticaimperialis.sln" t="IncludeFlat" />
