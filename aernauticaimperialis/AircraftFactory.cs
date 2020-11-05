@@ -11,7 +11,5 @@
             a.Weapons.Add(WeaponFactory.CreateQuadBigShootas());
             return a;
         }
-        
-        
     }
 }
