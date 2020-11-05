@@ -14,18 +14,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="04.11.2020 | Besprechung">
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2020_08_14__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2020_08_14__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/GameEngine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/GameEngine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/MovementCost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/MovementCost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.FileListAbsolute.txt" afterDir="false" />
-    </list>
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="05.11.2020" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +30,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AernauticaImperialis/Program.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/AUnit.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/AOrk.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ICommand.cs" />
@@ -74,6 +62,7 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/GameEngine.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Map.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
       </list>
     </option>
   </component>
@@ -247,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604513452784</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="05.11.2020">
+      <created>1604602998953</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604602998953</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +276,8 @@
     <MESSAGE value="02.11.2020" />
     <MESSAGE value="03.11.2020" />
     <MESSAGE value="04.11.2020 | Besprechung" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.11.2020 | Besprechung" />
+    <MESSAGE value="05.11.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.11.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="77" key="#Inspection_severity" timestamp="1604600442472">
@@ -316,19 +313,19 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604328436973" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604513454516">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604603000452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604513454516" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603000452" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604509776072">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604509776072" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603434276813" />
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604599525537">
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604602888279">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604599525537" />
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604602888279" />
   </component>
 </project>
