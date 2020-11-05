@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.4.0, )"
+              "version": "[16.9.0-preview-20201020-06, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",

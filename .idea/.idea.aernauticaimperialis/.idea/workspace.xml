@@ -14,7 +14,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="05.11.2020" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="05.11.2020">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/aernauticaImperialis.unitTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/aernauticaImperialis.unitTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/aernauticaImperialis.unitTest.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/aernauticaimperialis.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/aernauticaimperialis.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/aernauticaimperialis.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/aernauticaimperialis.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -81,21 +104,21 @@
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.aernauticaimperialis">
+  <component name="RunManager" selected=".NET Project.AernauticaImperialis">
     <configuration name="AernauticaImperialis" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AernauticaImperialis/AernauticaImperialis.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/aernauticaimperialis/aernauticaimperialis.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -243,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604602998953</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="05.11.2020">
+      <created>1604603283283</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604603283283</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,24 +334,24 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604601740363" />
-    <state x="277" y="77" key="SettingsEditor" timestamp="1604600717672">
+    <state x="277" y="77" key="SettingsEditor" timestamp="1604603339084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="77" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604600717672" />
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603339084" />
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603433927328" />
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog" timestamp="1604328436973">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604328436973" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604603000452">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604603284648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603000452" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603284648" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604509776072">
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604603435423">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604509776072" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603435423" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603434276813" />
     <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604602888279">
       <screen x="0" y="0" width="1536" height="864" />

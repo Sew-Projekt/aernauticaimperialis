@@ -13,3 +13,14 @@ C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\o
 C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.genruntimeconfig.cache
 C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.dll
 C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.pdb
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.exe
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.deps.json
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.runtimeconfig.json
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.runtimeconfig.dev.json
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.dll
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\bin\Debug\netcoreapp3.0\aernauticaimperialis.pdb
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.csprojAssemblyReference.cache
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.AssemblyInfoInputs.cache
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.AssemblyInfo.cs
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.csproj.CoreCompileInputs.cache
+C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\obj\Debug\netcoreapp3.0\aernauticaimperialis.genruntimeconfig.cache

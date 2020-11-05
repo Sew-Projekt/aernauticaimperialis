@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Julia\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">
-      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
-    </e>
-    <e p="C:\Users\Julia\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
-    <e p="C:\Users\Julia\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
-    <e p="C:\Users\Julia\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
-    <e p="C:\Users\Julia\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
-    <e p="C:\Users\Julia\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
-    <e p="C:\Users\Julia\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="C:\Users\Julia\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Julia\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_aernauticaimperialis.133859376.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Julia\Desktop\HTL\3AHIT\SEW\AernauticaImperialis" t="IncludeFlat">
+    <e p="C:\SCHULE\3. Jahrgang\SEW\AernauticaImperialis" t="IncludeFlat">
       <e p="AernauticaImperialis" t="IncludeRecursive">
         <e p="ACommand.cs" t="Include" />
         <e p="aernauticaimperialis.csproj" t="IncludeRecursive" />
@@ -59,5 +48,16 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\luke2\.nuget\packages\microsoft.net.test.sdk\16.9.0-preview-20201020-06\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\luke2\.nuget\packages\microsoft.testplatform.testhost\16.9.0-preview-20201020-06\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\luke2\.nuget\packages\microsoft.testplatform.testhost\16.9.0-preview-20201020-06\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\luke2\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\luke2\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\luke2\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\luke2\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\luke2\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\luke2\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_aernauticaimperialis.-452715691.00" t="ExcludeRecursive" />
   </component>
 </project>
