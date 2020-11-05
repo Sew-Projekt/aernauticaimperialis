@@ -7,7 +7,7 @@ namespace aernauticaimperialis {
         private int _y;
         private int _z;
         protected EFieldType _fieldType;
-        
+
         public int X {
             get => _x;
             set => _x = value;
@@ -27,17 +27,17 @@ namespace aernauticaimperialis {
             _z = z;
         }
 
-        public override bool Equals(object obj)
-        {
-            Point p = (Point) obj;
-            
-            if (p.X == X && p.Y == Y && p.Z == Z)
-            {
-                return true;
-            }
-
-            return false;
+        protected bool Equals(Point other) {
+            return _x == other._x && _y == other._y && _z == other._z;
         }
+
+        public override bool Equals(object obj) {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((Point) obj);
+        }
+        
         
         public List<Point> CalculateRoute(Point destination) {
             List<Point> route = new List<Point>();
@@ -59,5 +59,7 @@ namespace aernauticaimperialis {
             }
             return route;
         }
+        
+        
     }
 }

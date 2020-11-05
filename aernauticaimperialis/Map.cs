@@ -4,11 +4,11 @@ using System.Text;
 namespace aernauticaimperialis {
     public class Map {
         private readonly Point[,,] _map = new Point[15, 15, 5];
-
+        
         private const int Width = 15, Height = 15, Altitude = 5;
 
         public Map() {
-            Init();
+            //Init();
         }
 
         private void Init() {
@@ -32,28 +32,28 @@ namespace aernauticaimperialis {
                                 if (aircraft.PlayerType == EPlayerType.ORK) {
                                     sb.Append("o ");
                                 }
-                                else {
+                                else if(aircraft.PlayerType == EPlayerType.IMPERIALIS) {
                                     sb.Append("i ");
                                 }
 
                                 written = true;
                             }
-
-                            if (!written) {
-                                sb.Append(" ");
-                            }
+                            
                         }
-
-                        sb.Append("  ");
+                        if (!written) {
+                            sb.Append("_ ");
+                        }
                     }
 
-                    sb.AppendLine();
+                    sb.Append("  ");
                 }
-
-                Console.WriteLine(sb.ToString());
+                
+                sb.AppendLine();
             }
+            
+            Console.WriteLine(sb.ToString());
         }
-
+        
         public bool IsPointLegal(Point p) {
             if (p.X < 0 || p.Y < 0
                         || p.X >= _map.GetLength(0)

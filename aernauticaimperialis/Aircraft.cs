@@ -13,10 +13,12 @@ namespace aernauticaimperialis {
         private readonly int _maxAltitude;
         private int _costs;
         private readonly List<Weapon> _weapons = new List<Weapon>();
+        private EPlayerType _playerType;
 
-        private readonly EPlayerType _playerType;
-
-        public EPlayerType PlayerType => _playerType;
+        public EPlayerType PlayerType {
+            get => _playerType;
+            set => _playerType = value;
+        }
 
         public List<Weapon> Weapons => _weapons;
 
@@ -62,6 +64,7 @@ namespace aernauticaimperialis {
             _maxAltitude = maxAltitude;
             _costs = costs;
             _fieldType = EFieldType.AIRCRAFT;
+            _playerType = playerType;
         }
     }
 }
