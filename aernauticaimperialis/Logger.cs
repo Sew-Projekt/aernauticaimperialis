@@ -8,7 +8,7 @@ namespace aernauticaimperialis {
             return instance;
         }
 
-        public static bool LOG_TO_CONSOLE;
+        public static bool LOG_TO_CONSOLE = true;
 
         public Logger() {
         }
