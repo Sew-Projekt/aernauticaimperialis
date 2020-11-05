@@ -14,6 +14,10 @@ namespace aernauticaimperialis {
         private int _costs;
         private readonly List<Weapon> _weapons = new List<Weapon>();
 
+        private readonly EPlayerType _playerType;
+
+        public EPlayerType PlayerType => _playerType;
+
         public List<Weapon> Weapons => _weapons;
 
         public int Structure {
@@ -48,7 +52,7 @@ namespace aernauticaimperialis {
             set => _costs = value;
         }
 
-        public Aircraft(int x, int y, int z, int structure, int maxThrottle, int minSpeed, int maxSpeed, int maxManeuver, int handling, int maxAltitude, int costs) : base(x, y, z) {
+        public Aircraft(int x, int y, int z, int structure, int maxThrottle, int minSpeed, int maxSpeed, int maxManeuver, int handling, int maxAltitude, int costs, EPlayerType playerType) : base(x, y, z) {
             _structure = structure;
             _maxThrottle = maxThrottle;
             _minSpeed = minSpeed;

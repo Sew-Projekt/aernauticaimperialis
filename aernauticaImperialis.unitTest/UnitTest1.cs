@@ -31,6 +31,7 @@ namespace aernauticaImperialis.unitTest {
             string message = "Servüs Leudis";
             
             Logger.GetInstance().Info(message);
+            Assert.AreEqual("Servüs Leudis", message);
         }
 
         [Test]

@@ -1,9 +1,11 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 
 namespace aernauticaimperialis {
     public class Map {
-        private Point[,,] _map = new Point[15, 15, 5];
+        private readonly Point[,,] _map = new Point[15, 15, 5];
 
+        private const int Width = 15, Height = 15, Altitude = 5;
 
         public Map() {
             Init();
@@ -18,11 +20,38 @@ namespace aernauticaimperialis {
                 }
             }
         }
-        
-        public string Render() {
-            StringBuilder builder = new StringBuilder();
 
-            return null;
+        public void Render() {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i <= Height; i++) {
+                for (int j = 1; j <= Altitude; j++) {
+                    for (int k = 1; k <= Width; k++) {
+                        bool written = false;
+                        foreach (Aircraft aircraft in GameEngine.AircraftList) {
+                            if (aircraft.Equals(new Point(k, i, j))) {
+                                if (aircraft.PlayerType == EPlayerType.ORK) {
+                                    sb.Append("o ");
+                                }
+                                else {
+                                    sb.Append("i ");
+                                }
+
+                                written = true;
+                            }
+
+                            if (!written) {
+                                sb.Append(" ");
+                            }
+                        }
+
+                        sb.Append("  ");
+                    }
+
+                    sb.AppendLine();
+                }
+
+                Console.WriteLine(sb.ToString());
+            }
         }
 
         public bool IsPointLegal(Point p) {

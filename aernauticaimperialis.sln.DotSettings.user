@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Program Files\dotnet\sdk\3.1.402\MSBuild.dll</s:String>
+	<s:Int64 x:Key="/Default/Environment/Hierarchy/Build/BuildTool/MsbuildVersion/@EntryValue">1048576</s:Int64>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=56d40ea3_002D638f_002D4be5_002Da4ef_002D2e2c1cbc976d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="EqualsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.EqualsTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=61dea714_002D710f_002D4b9c_002Db0c3_002Db0a30bed1643/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoggerTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.LoggerTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=621c776a_002D82b0_002D4b8c_002Da019_002De6b63eab9974/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoggerTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.LoggerTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b56bb66b_002Dd8e4_002D4d11_002D8b0d_002Dbdc1b34b5ac1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoggerTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.LoggerTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
