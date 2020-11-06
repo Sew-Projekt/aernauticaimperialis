@@ -10,10 +10,12 @@ namespace aernauticaimperialis
             
             Map map = new Map();
 
-            //GameEngine.AircraftList.Add(AircraftFactory.CreateHellion(new Point(4, 2, 3)));
-            //GameEngine.AircraftList.Add(AircraftFactory.CreateBigBurna(new Point(2, 4, 2)));
+            
+            AircraftFactory.CreateHellion(new Point(4, 2, 3), 1);
+            AircraftFactory.CreateBigBurna(new Point(2, 4, 2), 2);
             
             map.Render();
+            Console.ReadLine();
         }
     }
 }

@@ -1,7 +1,6 @@
-﻿namespace aernauticaimperialis
-{
-    public enum EPlayerType
-    {
-        ORK, IMPERIALIS
+﻿namespace aernauticaimperialis {
+    public enum EPlayerType {
+        ORK,
+        IMPERIALIS
     }
 }

@@ -20,40 +20,6 @@ namespace aernauticaimperialis {
                 }
             }
         }
-
-        /*public void Render() {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 1; i <= Height; i++) {
-                for (int j = 1; j <= Altitude; j++) {
-                    for (int k = 1; k <= Width; k++) {
-                        bool written = false;
-                        foreach (Aircraft aircraft in GameEngine.AircraftList) {
-                            if (aircraft.Equals(new Point(k, i, j))) {
-                                if (aircraft.PlayerType == EPlayerType.ORK) {
-                                    sb.Append("o ");
-                                }
-                                else if(aircraft.PlayerType == EPlayerType.IMPERIALIS) {
-                                    sb.Append("i ");
-                                }
-
-                                written = true;
-                            }
-                            
-                        }
-                        if (!written) {
-                            sb.Append("_ ");
-                        }
-                    }
-
-                    sb.Append("  ");
-                }
-                
-                sb.AppendLine();
-            }
-            
-            Console.WriteLine(sb.ToString());
-        }*/
-
         public void Render() {
             StringBuilder sb = new StringBuilder();
             for (int i = 1; i <= Height; i++) {

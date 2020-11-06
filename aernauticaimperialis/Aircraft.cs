@@ -3,7 +3,7 @@
 namespace aernauticaimperialis {
     public class Aircraft : Point{
         private int _structure;
-        private int _speed;
+        private int _currentSpeed;
         private int _currentThrottle;
         private readonly int _maxThrottle;
         private readonly int _minSpeed;
@@ -33,9 +33,9 @@ namespace aernauticaimperialis {
             set => _structure = value;
         }
 
-        public int Speed {
-            get => _speed;
-            set => _speed = value;
+        public int CurrentSpeed {
+            get => _currentSpeed;
+            set => _currentSpeed = value;
         }
 
         public int CurrentThrottle {
@@ -73,5 +73,17 @@ namespace aernauticaimperialis {
             _playerType = playerType;
             _position = new Point(x, y, z);
         }
+
+        /*public MovementCost CalculateMovementCost(List<Point> points) {
+            int count = 0;
+            MovementCost costs = new MovementCost(2, 2, points.Count);
+            
+        }*/
+
+        /*public Point SetLocation(List<Point> list) {
+            for (int i = 0; i < list.Count; i++) {
+                
+            }
+        }*/
     }
 }

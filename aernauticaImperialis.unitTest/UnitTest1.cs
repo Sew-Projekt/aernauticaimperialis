@@ -44,7 +44,19 @@ namespace aernauticaImperialis.unitTest {
 
         [Test]
         public void AircraftFactoryTest() {
+            Map map = new Map();
+            AircraftFactory.CreateExecutioner(new Point(1, 1, 1), 2);
             
+            map.Render();
+        }
+
+        [Test]
+        public void IsPointFreeTest() {
+            Map map = new Map();
+            Point p = new Point(2,2,2);
+            Aircraft aircraft = AircraftFactory.CreateHellion(new Point(2, 2, 2), 1);
+            Assert.IsFalse(p.IsPointFree(aircraft.Position));
+
         }
     }
 }
