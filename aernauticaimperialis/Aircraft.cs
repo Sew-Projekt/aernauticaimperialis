@@ -14,6 +14,12 @@ namespace aernauticaimperialis {
         private int _costs;
         private readonly List<Weapon> _weapons = new List<Weapon>();
         private EPlayerType _playerType;
+        private Point _position;
+
+        public Point Position {
+            get => _position;
+            set => _position = value;
+        }
 
         public EPlayerType PlayerType {
             get => _playerType;
@@ -65,6 +71,7 @@ namespace aernauticaimperialis {
             _costs = costs;
             _fieldType = EFieldType.AIRCRAFT;
             _playerType = playerType;
+            _position = new Point(x, y, z);
         }
     }
 }

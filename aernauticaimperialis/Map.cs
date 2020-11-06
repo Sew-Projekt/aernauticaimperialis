@@ -4,7 +4,7 @@ using System.Text;
 namespace aernauticaimperialis {
     public class Map {
         private readonly Point[,,] _map = new Point[15, 15, 5];
-        
+
         private const int Width = 15, Height = 15, Altitude = 5;
 
         public Map() {
@@ -21,7 +21,7 @@ namespace aernauticaimperialis {
             }
         }
 
-        public void Render() {
+        /*public void Render() {
             StringBuilder sb = new StringBuilder();
             for (int i = 1; i <= Height; i++) {
                 for (int j = 1; j <= Altitude; j++) {
@@ -52,8 +52,39 @@ namespace aernauticaimperialis {
             }
             
             Console.WriteLine(sb.ToString());
+        }*/
+
+        public void Render() {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i <= Height; i++) {
+                for (int j = 1; j <= Altitude; j++) {
+                    for (int k = 1; k <= Width; k++) {
+                        bool written = false;
+                        foreach (Aircraft aircraft in GameEngine.AircraftList) {
+                            if (aircraft.Position.Equals(new Point(k, i, j))) {
+                                if (aircraft.PlayerType == EPlayerType.ORK) {
+                                    sb.Append("o ");
+                                }
+                                else if (aircraft.PlayerType == EPlayerType.IMPERIALIS) {
+                                    sb.Append("i ");
+                                }
+
+                                written = true;
+                            }
+                        }
+
+                        if (!written) sb.Append("_ ");
+                    }
+
+                    sb.Append("  ");
+                }
+
+                sb.AppendLine();
+            }
+
+            Console.WriteLine(sb.ToString());
         }
-        
+
         public bool IsPointLegal(Point p) {
             if (p.X < 0 || p.Y < 0
                         || p.X >= _map.GetLength(0)
