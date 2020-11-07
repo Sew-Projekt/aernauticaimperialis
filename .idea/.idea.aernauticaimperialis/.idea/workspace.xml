@@ -14,7 +14,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="07.11.2020 || Move Methode fast fertig" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="07.11.2020 || Move Methode fast fertig">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +71,11 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Player.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +161,7 @@
       <workItem from="1604666807157" duration="3453000" />
       <workItem from="1604676308258" duration="4799000" />
       <workItem from="1604765214587" duration="3369000" />
-      <workItem from="1604768627158" duration="3563000" />
+      <workItem from="1604768627158" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -302,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604772064153</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="07.11.2020 || Move Methode fast fertig">
+      <created>1604772196128</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604772196128</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,22 +370,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368334498" />
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604771824571">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604772959441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
-    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604771824571">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772959441" />
+    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604772959441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
-    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604771824571">
+    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772959441" />
+    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604772959441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
-    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604771824571">
+    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772959441" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604772959441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772959441" />
     <state x="147" y="69" key="MergeDialog" timestamp="1603368385069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -396,10 +411,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604608243058" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604772066775">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604772197499">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772066775" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772197499" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604603435423">
       <screen x="0" y="0" width="1536" height="864" />
@@ -410,9 +425,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604668640572" />
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604770581580">
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604772619532">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604770581580" />
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772619532" />
   </component>
 </project>
