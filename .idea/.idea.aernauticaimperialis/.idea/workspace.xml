@@ -14,23 +14,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="06.11.2020 || idk">
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="07.11.2020 || Move Methode fast fertig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +63,11 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Player.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Player.cs" />
       </list>
     </option>
   </component>
@@ -169,7 +153,7 @@
       <workItem from="1604666807157" duration="3453000" />
       <workItem from="1604676308258" duration="4799000" />
       <workItem from="1604765214587" duration="3369000" />
-      <workItem from="1604768627158" duration="3176000" />
+      <workItem from="1604768627158" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -311,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604682097787</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="07.11.2020 || Move Methode fast fertig">
+      <created>1604772064153</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604772064153</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +339,8 @@
     <MESSAGE value="05.11.2020 || endresultat" />
     <MESSAGE value="06.11.2020 || Render, funkt ned" />
     <MESSAGE value="06.11.2020 || idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="06.11.2020 || idk" />
+    <MESSAGE value="07.11.2020 || Move Methode fast fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.11.2020 || Move Methode fast fertig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="77" key="#Inspection_severity" timestamp="1604600442472">
@@ -363,22 +355,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368334498" />
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604771791940">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604771824571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
-    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604771791940">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
+    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604771824571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
-    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604771791940">
+    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
+    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604771824571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
-    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604771791940">
+    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604771824571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771824571" />
     <state x="147" y="69" key="MergeDialog" timestamp="1603368385069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -404,10 +396,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604608243058" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604682099520">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604772066775">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604682099520" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604772066775" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604603435423">
       <screen x="0" y="0" width="1536" height="864" />
