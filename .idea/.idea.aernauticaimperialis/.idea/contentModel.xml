@@ -18,7 +18,6 @@
         <e p="EWeaponOrientationType.cs" t="Include" />
         <e p="GameEngine.cs" t="Include" />
         <e p="IMoveBehaviour.cs" t="Include" />
-        <e p="ISpinBehaviour.cs" t="Include" />
         <e p="Logger.cs" t="Include" />
         <e p="Map.cs" t="Include" />
         <e p="MovementCost.cs" t="Include" />
@@ -29,6 +28,7 @@
             </e>
           </e>
         </e>
+        <e p="Player.cs" t="Include" />
         <e p="Point.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="SpinBehaviour.cs" t="Include" />

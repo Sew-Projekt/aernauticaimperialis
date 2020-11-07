@@ -72,18 +72,20 @@ namespace aernauticaimperialis {
             _fieldType = EFieldType.AIRCRAFT;
             _playerType = playerType;
             _position = new Point(x, y, z);
+            CurrentSpeed = CurrentThrottle + CurrentSpeed;
         }
 
-        /*public MovementCost CalculateMovementCost(List<Point> points) {
+        public MovementCost CalculateMovementCost(List<Point> points) {
             int count = 0;
             MovementCost costs = new MovementCost(2, 2, points.Count);
-            
-        }*/
+            return costs;
+        }
 
-        /*public Point SetLocation(List<Point> list) {
-            for (int i = 0; i < list.Count; i++) {
-                
-            }
-        }*/
+        public void SetLocation(Point destination) {
+            //wissen ned weiter, keine idee hat funktioniert
+            this.Position.X = destination.X;
+            this.Position.Y = destination.Y;
+            this.Position.Z = destination.Z;
+        }
     }
 }

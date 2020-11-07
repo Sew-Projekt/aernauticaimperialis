@@ -7,19 +7,14 @@ namespace aernauticaimperialis {
             _aircraft = aircraft;
         }
 
-        public void Move(Point destination) {
-            /*List<Point> route = _aircraft.CalculateRoute(destination);
-            MovementCost costs = _aircraft.CalculateMovementCost(route);
-            for (int i = 0; i < costs.FieldCount; i++) {
-                _aircraft.SetLocation(route[i]);
+        public void Move(Aircraft aircraft,Point destination) {
+            List<Point> route = aircraft.CalculateRoute(destination);
+            MovementCost costs = aircraft.CalculateMovementCost(route);
+            if (!SpinBehaviour.IsSpin(aircraft)) {
+                aircraft.SetLocation(destination);
             }
 
-            if (Spinbehaviour.IsSpin(_aircraft)) {
-                _aircraft.MoveBehaviour = new Spinbehaviour(_aircraft);
-            }
-        }*/
+            SpinBehaviour.HandlingTest(aircraft);
         }
-
-        
     }
 }

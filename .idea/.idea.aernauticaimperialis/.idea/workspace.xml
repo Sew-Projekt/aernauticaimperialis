@@ -14,29 +14,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="06.11.2020 || Render, funkt ned">
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" afterDir="false" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="06.11.2020 || idk">
+      <change afterPath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaimperialis.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaimperialis.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
     </list>
@@ -82,16 +73,17 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/MovementCost.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/GameEngine.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Map.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" />
         <option value="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Player.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +167,9 @@
       <workItem from="1604651909252" duration="451000" />
       <workItem from="1604657587997" duration="238000" />
       <workItem from="1604666807157" duration="3453000" />
-      <workItem from="1604676308258" duration="4763000" />
+      <workItem from="1604676308258" duration="4799000" />
+      <workItem from="1604765214587" duration="3369000" />
+      <workItem from="1604768627158" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -310,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604652347064</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="06.11.2020 || idk">
+      <created>1604682097787</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604682097787</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +347,8 @@
     <MESSAGE value="05.11.2020" />
     <MESSAGE value="05.11.2020 || endresultat" />
     <MESSAGE value="06.11.2020 || Render, funkt ned" />
-    <option name="LAST_COMMIT_MESSAGE" value="06.11.2020 || Render, funkt ned" />
+    <MESSAGE value="06.11.2020 || idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="06.11.2020 || idk" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="77" key="#Inspection_severity" timestamp="1604600442472">
@@ -361,22 +363,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368334498" />
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604670565318">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1604771791940">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604670565318" />
-    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604670565318">
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
+    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1604771791940">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604670565318" />
-    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604670565318">
+    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
+    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1604771791940">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604670565318" />
-    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604670565318">
+    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1604771791940">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604670565318" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604771791940" />
     <state x="147" y="69" key="MergeDialog" timestamp="1603368385069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -389,10 +391,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604331221767" />
-    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604652044560">
+    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604769620327">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604652044560" />
+    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604769620327" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1604603339084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -402,10 +404,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604608243058" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604652348603">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604682099520">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604652348603" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604682099520" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604603435423">
       <screen x="0" y="0" width="1536" height="864" />
@@ -416,9 +418,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604668640572" />
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604605054676">
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup" timestamp="1604770581580">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604605054676" />
+    <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604770581580" />
   </component>
 </project>
