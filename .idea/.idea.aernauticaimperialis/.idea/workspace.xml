@@ -14,9 +14,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="08.11.2020">
-      <change afterPath="$PROJECT_DIR$/Klassendiagramm.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="08.11.2020 || ENDE">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
@@ -27,18 +25,8 @@
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/ACommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
     </list>
@@ -93,8 +81,8 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
+        <option value="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -185,7 +173,7 @@
       <workItem from="1604765214587" duration="3369000" />
       <workItem from="1604768627158" duration="4513000" />
       <workItem from="1604773489366" duration="103000" />
-      <workItem from="1604830256983" duration="20014000" />
+      <workItem from="1604830256983" duration="21226000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -355,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604834991557</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="08.11.2020 || ENDE">
+      <created>1604864572405</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604864572405</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +389,8 @@
     <MESSAGE value="06.11.2020 || idk" />
     <MESSAGE value="07.11.2020 || Move Methode fast fertig" />
     <MESSAGE value="08.11.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="08.11.2020" />
+    <MESSAGE value="08.11.2020 || ENDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.11.2020 || ENDE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="77" key="#Inspection_severity" timestamp="1604600442472">
@@ -409,22 +405,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368334498" />
-    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1604861027570">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1604864634575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
-    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1604861027570">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604864634575" />
+    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1604864634575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
-    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1604861027570">
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604864634575" />
+    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1604864634575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
-    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1604861027570">
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604864634575" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1604864634575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604864634575" />
     <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1604860612690">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -514,10 +510,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604608243058" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604834993434">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604867486004">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834993434" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604867486004" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604852178537">
       <screen x="0" y="0" width="1536" height="864" />

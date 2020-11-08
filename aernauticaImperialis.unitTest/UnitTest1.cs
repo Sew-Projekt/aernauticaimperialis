@@ -81,6 +81,18 @@ namespace aernauticaImperialis.unitTest {
             Assert.AreEqual(p.Y, bigBurna.Position.Y);
             Assert.AreEqual(p.Z, bigBurna.Position.Z);
         }
+
+        [Test]
+        public void IsSpinTest() {
+            Aircraft aircraft = AircraftFactory.CreateBigBurna(new Point(1, 1, 1), 3);
+            
+            Assert.IsTrue(SpinBehaviour.IsSpin(aircraft));
+        }
+
+        [Test]
+        public void HandlingTestTest() {
+            
+        }
         
     }
 }

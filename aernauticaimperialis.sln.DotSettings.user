@@ -33,5 +33,6 @@
     &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.CalculateMovementCostTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.CalculateRouteTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.MoveTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DADBF179-927F-4798-9A88-C6FB237E1FDB::.NETCoreApp,Version=v3.1::aernauticaImperialis.unitTest.Tests.IsSpinTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
