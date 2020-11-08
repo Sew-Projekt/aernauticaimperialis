@@ -43,30 +43,44 @@ namespace aernauticaImperialis.unitTest {
         }
 
         [Test]
-        public void AircraftFactoryTest() {
-            Map map = new Map();
-            AircraftFactory.CreateExecutioner(new Point(1, 1, 1), 2);
-            
-            map.Render();
-        }
-
-        [Test]
         public void IsPointFreeTest() {
             Map map = new Map();
             Point p = new Point(2,2,2);
             Aircraft aircraft = AircraftFactory.CreateHellion(new Point(2, 2, 2), 1);
-            Assert.IsFalse(p.IsPointFree(aircraft.Position));
+            Assert.IsFalse(map.IsPointLegal(aircraft.Position));
         }
 
-        //[Test]
-        /*public void CalculateMovementCostTest() {
+        [Test]
+        public void CalculateMovementCostTest() {
             Map map = new Map();
             Aircraft aircraft = AircraftFactory.CreateBigBurna(new Point(2, 2, 2), 3);
             List<Point> route = aircraft.CalculateRoute(new Point(3, 4, 2));
-            MovementCost costs = aircraft.CalculateMovementCost(route);
-            Assert.AreEqual(3, costs.FieldCount);
+            MovementCost costs = aircraft.CalculateMoveCost(route);
+            Assert.AreEqual(2, costs.FieldCount);
             Assert.AreEqual(1, costs.ManeuverCost);
             Assert.AreEqual(2, costs.SpeedCost);
-        }*/
+        }
+
+        [Test]
+        public void CalculateRouteTest() {
+            Point p = new Point(1, 1, 1);
+            List<Point> points = p.CalculateRoute(new Point(3, 3, 2));
+            
+            Assert.AreEqual(2, points.Count);
+        }
+
+        [Test]
+        public void MoveTest() {
+            Map map = new Map();
+            Aircraft bigBurna = AircraftFactory.CreateBigBurna(new Point(1, 1, 1), 3);
+            
+            DefaultMoveBehaviour moveBehaviour = new DefaultMoveBehaviour();
+            moveBehaviour.Move(bigBurna, new Point(2, 2, 1));
+            Point p = new Point(2, 2, 1);
+            Assert.AreEqual(p.X,bigBurna.Position.X);
+            Assert.AreEqual(p.Y, bigBurna.Position.Y);
+            Assert.AreEqual(p.Z, bigBurna.Position.Z);
+        }
+        
     }
 }

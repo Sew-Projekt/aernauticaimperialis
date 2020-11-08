@@ -15,9 +15,6 @@
 
         public Player(EPlayerType playerType) {
             _playerType = playerType;
-            _points = _points - _aircraft.Costs; //Is falsch,
-                                                 //weil wir ja ned immer neuen Player erstellen,
-                                                 //wenn flugzeug erstellen
         }
     }
 }

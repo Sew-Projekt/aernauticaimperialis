@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 
 namespace aernauticaimperialis {
-    public class Aircraft : Point{
+    public class Aircraft : Point {
         private int _structure;
         private int _currentSpeed;
         private int _currentThrottle;
@@ -17,6 +17,12 @@ namespace aernauticaimperialis {
         private readonly List<Weapon> _weapons = new List<Weapon>();
         private EPlayerType _playerType;
         private Point _position;
+        private string _name;
+
+        public string Name {
+            get => _name;
+            set => _name = value;
+        }
 
         public Point Position {
             get => _position;
@@ -62,7 +68,8 @@ namespace aernauticaimperialis {
             set => _costs = value;
         }
 
-        public Aircraft(int x, int y, int z, int structure, int maxThrottle, int minSpeed, int maxSpeed, int maxManeuver, int handling, int maxAltitude, int costs, EPlayerType playerType) : base(x, y, z) {
+        public Aircraft(string name,int x, int y, int z, int structure, int maxThrottle, int minSpeed, int maxSpeed,
+            int maxManeuver, int handling, int maxAltitude, int costs, EPlayerType playerType) : base(x, y, z) {
             _structure = structure;
             _maxThrottle = maxThrottle;
             _minSpeed = minSpeed;
@@ -74,21 +81,57 @@ namespace aernauticaimperialis {
             _fieldType = EFieldType.AIRCRAFT;
             _playerType = playerType;
             _position = new Point(x, y, z);
-            CurrentSpeed = CurrentThrottle + CurrentSpeed;
+            _name = name;
         }
 
-        public MovementCost CalculateMovementCost(List<Point> points) {
-            int speedCount = 0;
-            int maneuverCount = 0;
-            foreach (Point p in points) {
-                if (p.X != this.Position.X && p.Y != this.Position.Y) 
-                    maneuverCount++;
-                if (p.X != this.Position.X || p.Y != this.Position.Y || p.Z != this.Position.Z)
-                    speedCount++;
+        public MovementCost CalculateMoveCost(List<Point> route)
+        {
+            int maneuverCost = 0;
+            int speedCost = 0;
+            int fieldCost = 0;
+            if (route.Count <= 1) //wtf pani
+                return new MovementCost(1, 1, 1);
+
+            int prevIndex = 0;
+            Point previous = route[prevIndex];
+            int currIndex = 1;
+            Point current = route[currIndex];
+
+            for (int i = 0; i <= route.Count; i++)
+            {
+                fieldCost++;
+                if (previous.X != current.X)
+                {
+                    if (previous.Y != current.Y)
+                    {
+                        maneuverCost++;
+                        speedCost++;
+                    }
+
+                    speedCost++;
+                }
+
+                if (previous.X == current.X && previous.Y != current.Y)
+                {
+                    speedCost++;
+                }
+
+                if (previous.Z != current.Z)
+                {
+                    speedCost++;
+                }
+
+                if (currIndex + 1 >= route.Count)
+                {
+                    break;
+                }
+
+                previous = route[++prevIndex];
+                current = route[++currIndex];
             }
-            return new MovementCost(maneuverCount, speedCount, points.Count + 1);
-        }
 
+            return new MovementCost(maneuverCost, speedCost, fieldCost);
+        }
         public void SetLocation(Point destination) {
             this.Position.X = destination.X;
             this.Position.Y = destination.Y;

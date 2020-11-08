@@ -60,15 +60,5 @@ namespace aernauticaimperialis {
             return route;
         }
         
-        public bool IsPointFree(Point p) {
-            foreach (Aircraft aircraft in GameEngine.AircraftList) {
-                if (p.Equals(aircraft)) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-        
     }
 }

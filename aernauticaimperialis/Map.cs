@@ -23,6 +23,8 @@ namespace aernauticaimperialis {
         public void Render() {
             StringBuilder sb = new StringBuilder();
             for (int i = 1; i <= Height; i++) {
+                if (i < 10) sb.Append("0" + i + "  ");
+                else sb.Append(i + "  ");
                 for (int j = 1; j <= Altitude; j++) {
                     for (int k = 1; k <= Width; k++) {
                         bool written = false;
@@ -44,7 +46,7 @@ namespace aernauticaimperialis {
 
                     sb.Append("  ");
                 }
-
+                
                 sb.AppendLine();
             }
 
@@ -56,8 +58,19 @@ namespace aernauticaimperialis {
                         || p.X >= _map.GetLength(0)
                         || p.Y >= _map.GetLength(1)
                         || p.Z < 0
-                        || p.Z >= _map.GetLength(2))
+                        || p.Z >= _map.GetLength(2)
+                        || IsPointFree(p))
                 return false;
+            return true;
+        }
+        
+        public bool IsPointFree(Point p) {
+            foreach (Aircraft aircraft in GameEngine.AircraftList) {
+                if (p.Equals(aircraft)) {
+                    return false;
+                }
+            }
+
             return true;
         }
     }

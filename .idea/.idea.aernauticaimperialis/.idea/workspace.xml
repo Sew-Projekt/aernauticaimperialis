@@ -14,7 +14,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="07.11.2020">
+    <list default="true" id="09f55ff0-cf82-4146-bc31-091edc56647c" name="Default Changelist" comment="08.11.2020">
+      <change afterPath="$PROJECT_DIR$/Klassendiagramm.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aernauticaimperialis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/bin/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
@@ -25,13 +27,18 @@
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaImperialis.unitTest/obj/Debug/netcoreapp3.1/aernauticaImperialis.unitTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/ACommand.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Point.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/bin/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/aernauticaimperialis/obj/Debug/netcoreapp3.0/aernauticaimperialis.pdb" afterDir="false" />
     </list>
@@ -76,18 +83,18 @@
         <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultField.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/MovementCost.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/GameEngine.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/EPlayerType.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/ISpinBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/IMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Point.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Player.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaimperialis/Map.cs" />
-        <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/AircraftFactory.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Program.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/SpinBehaviour.cs" />
         <option value="$PROJECT_DIR$/aernauticaImperialis.unitTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/aernauticaimperialis/Aircraft.cs" />
       </list>
     </option>
   </component>
@@ -101,8 +108,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -175,7 +185,7 @@
       <workItem from="1604765214587" duration="3369000" />
       <workItem from="1604768627158" duration="4513000" />
       <workItem from="1604773489366" duration="103000" />
-      <workItem from="1604830256983" duration="4073000" />
+      <workItem from="1604830256983" duration="20014000" />
     </task>
     <task id="LOCAL-00001" summary="Sehts des">
       <created>1603367846464</created>
@@ -338,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604773049924</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="08.11.2020">
+      <created>1604834991557</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604834991557</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,37 +393,102 @@
     <MESSAGE value="06.11.2020 || Render, funkt ned" />
     <MESSAGE value="06.11.2020 || idk" />
     <MESSAGE value="07.11.2020 || Move Methode fast fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.11.2020 || Move Methode fast fertig" />
+    <MESSAGE value="08.11.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.11.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="77" key="#Inspection_severity" timestamp="1604600442472">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="345" y="77" key="#Inspection_severity/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604600442472" />
-    <state x="223" y="87" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604668675698">
+    <state x="223" y="87" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604859397507">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="87" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604668675698" />
+    <state x="223" y="87" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604859397507" />
     <state x="620" y="330" key="Github.ShareDialog" timestamp="1603368334498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603368334498" />
-    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1604834851237">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1604861027570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834851237" />
-    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1604834851237">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
+    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1604861027570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834851237" />
-    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1604834851237">
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
+    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1604861027570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834851237" />
-    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1604834851237">
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1604861027570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834851237" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604861027570" />
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.1.center" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.1.left" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.1.right" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.2.bottom" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.2.center" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.2.left" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.2.right" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.3.bottom" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.3.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
+    <state width="1493" height="254" key="GridCell.Tab.3.center" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.3.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.3.left" timestamp="1604860612690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.3.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612690" />
+    <state width="1493" height="254" key="GridCell.Tab.3.right" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.3.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
+    <state width="1493" height="254" key="GridCell.Tab.4.bottom" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.4.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
+    <state width="1493" height="254" key="GridCell.Tab.4.center" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.4.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
+    <state width="1493" height="254" key="GridCell.Tab.4.left" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.4.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
+    <state width="1493" height="254" key="GridCell.Tab.4.right" timestamp="1604860612691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.4.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604860612691" />
     <state x="147" y="69" key="MergeDialog" timestamp="1603368385069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -419,10 +501,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604331221767" />
-    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604769620327">
+    <state x="479" y="122" key="RiderGenerateDialog" timestamp="1604853993102">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604769620327" />
+    <state x="479" y="122" key="RiderGenerateDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604853993102" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1604603339084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -432,15 +514,15 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="VCS.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604608243058" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604773068025">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1604834993434">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604773068025" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834993434" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603434313846" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604603435423">
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604852178537">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604603435423" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604852178537" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1603434276813" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1604833234625">
       <screen x="0" y="0" width="1536" height="864" />
@@ -450,5 +532,24 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="430" y="126" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1604834805698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/aernauticaimperialis/DefaultMoveBehaviour.cs</url>
+          <line>16</line>
+          <properties documentPath="C:\SCHULE\3. Jahrgang\SEW\aernauticaimperialis\aernauticaimperialis\DefaultMoveBehaviour.cs" initialLine="16">
+            <startOffsets>
+              <option value="623" />
+            </startOffsets>
+            <endOffsets>
+              <option value="624" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
