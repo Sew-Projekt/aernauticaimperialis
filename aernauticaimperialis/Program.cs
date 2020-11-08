@@ -10,12 +10,12 @@ namespace aernauticaimperialis
             
             Map map = new Map();
 
-            Aircraft hellion1 = AircraftFactory.CreateHellion(new Point(4, 2, 3), 3);
-            Aircraft bigburna1 = AircraftFactory.CreateBigBurna(new Point(2, 4, 2), 2);
+            Aircraft hellion1 = AircraftFactory.CreateHellion(new Point(4, 2, 3), 1);
+            Aircraft bigburna1 = AircraftFactory.CreateBigBurna(new Point(2, 4, 2), 1);
             
             DefaultMoveBehaviour moveBehaviour = new DefaultMoveBehaviour();
-            moveBehaviour.Move(bigburna1, new Point(2, 4, 3));
-            moveBehaviour.Move(hellion1, new Point(5, 5, 2));
+            moveBehaviour.Move(bigburna1, new Point(3, 4, 3));
+            moveBehaviour.Move(hellion1, new Point(5, 2, 2));
 
             map.Render();
             Console.ReadLine();

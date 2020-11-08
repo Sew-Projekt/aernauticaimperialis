@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Net;
 
 namespace aernauticaimperialis {
     public class Aircraft : Point{
@@ -76,13 +78,18 @@ namespace aernauticaimperialis {
         }
 
         public MovementCost CalculateMovementCost(List<Point> points) {
-            int count = 0;
-            MovementCost costs = new MovementCost(2, 2, points.Count);
-            return costs;
+            int speedCount = 0;
+            int maneuverCount = 0;
+            foreach (Point p in points) {
+                if (p.X != this.Position.X && p.Y != this.Position.Y) 
+                    maneuverCount++;
+                if (p.X != this.Position.X || p.Y != this.Position.Y || p.Z != this.Position.Z)
+                    speedCount++;
+            }
+            return new MovementCost(maneuverCount, speedCount, points.Count + 1);
         }
 
         public void SetLocation(Point destination) {
-            //wissen ned weiter, keine idee hat funktioniert
             this.Position.X = destination.X;
             this.Position.Y = destination.Y;
             this.Position.Z = destination.Z;

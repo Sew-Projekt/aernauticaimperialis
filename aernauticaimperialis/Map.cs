@@ -8,7 +8,7 @@ namespace aernauticaimperialis {
         private const int Width = 15, Height = 15, Altitude = 5;
 
         public Map() {
-            //Init();
+            Init();
         }
 
         private void Init() {

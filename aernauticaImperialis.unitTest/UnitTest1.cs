@@ -56,7 +56,17 @@ namespace aernauticaImperialis.unitTest {
             Point p = new Point(2,2,2);
             Aircraft aircraft = AircraftFactory.CreateHellion(new Point(2, 2, 2), 1);
             Assert.IsFalse(p.IsPointFree(aircraft.Position));
-
         }
+
+        //[Test]
+        /*public void CalculateMovementCostTest() {
+            Map map = new Map();
+            Aircraft aircraft = AircraftFactory.CreateBigBurna(new Point(2, 2, 2), 3);
+            List<Point> route = aircraft.CalculateRoute(new Point(3, 4, 2));
+            MovementCost costs = aircraft.CalculateMovementCost(route);
+            Assert.AreEqual(3, costs.FieldCount);
+            Assert.AreEqual(1, costs.ManeuverCost);
+            Assert.AreEqual(2, costs.SpeedCost);
+        }*/
     }
 }
